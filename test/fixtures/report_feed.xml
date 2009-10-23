@@ -1,22 +1,29 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<feed xmlns='http://www.w3.org/2005/Atom'
-  xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/'
-  xmlns:dxp='http://schemas.google.com/dataexport/2009'
-  xmlns:ga='http://schemas.google.com/analytics/2008'>
-    <id>http://www.google.com/analytics/feeds/data?ids=ga:983247&amp;dimensions=ga:country,ga:city&amp;metrics=ga:pageViews&amp;start-date=2008-01-01&amp;end-date=2008-01-02</id>
-    <updated>2008-01-02T15:59:59.999-08:00 </updated>
-    <title type="text">Google Analytics Data for Profile 983247</title>
-    <link href="http://www.google.com/analytics/feeds/data" rel="http://schemas.google.com/g/2005#feed" type="application/atom+xml"/>
-    <link href="http://www.google.com/analytics/feeds/data?end-date=2008-01-02&amp;start-date=2008-01-01&amp;metrics=ga%3ApageViews&amp;ids=ga%3A983247&amp;dimensions=ga%3Acountry%2Cga%3Acity" rel="self" type="application/atom+xml"/>
-    <link href="http://www.google.com/analytics/feeds/data?start-index=1001&amp;max-results=1000&amp;end-date=2008-01-02&amp;start-date=2008-01-01&amp;metrics=ga%3ApageViews&amp;ids=ga%3A983247&amp;dimensions=ga%3Acountry%2Cga%3Acity" rel="next" type="application/atom+xml"/>
-    <author>
-      <name>Google Analytics</name>
-    </author>    
-  <openSearch:startIndex>3</openSearch:startIndex>
-  <openSearch:itemsPerPage>4</openSearch:itemsPerPage>
-  <ga:webPropertyID>UA-983247-67</ga:webPropertyID>
-  <ga:start-date>2008-01-01</ga:start-date>
-  <ga:end-date>2008-01-02</ga:end-date>
+<?xml version='1.0' encoding='UTF-8'?>
+<feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:dxp='http://schemas.google.com/analytics/2009'>
+  <id>http://www.google.com/analytics/feeds/data?ids=ga:1174&amp;dimensions=ga:medium,ga:source&amp;metrics=ga:bounces,ga:visits&amp;filters=ga:medium%3D%3Dreferral&amp;start-date=2008-10-01&amp;end-date=2008-10-31</id>
+  <updated>2008-10-31T16:59:59.999-07:00</updated>
+  <title type='text'>Google Analytics Data for Profile 1174</title>
+  <link rel='self' type='application/atom+xml' href='http://www.google.com/analytics/feeds/data?max-results=5&amp;sort=-ga%3Avisits&amp;end-date=2008-10-31&amp;start-date=2008-10-01&amp;metrics=ga%3Avisits%2Cga%3Abounces&amp;ids=ga%3A1174&amp;dimensions=ga%3Asource%2Cga%3Amedium&amp;filters=ga%3Amedium%3D%3Dreferral'/>
+  <link rel='next' type='application/atom+xml' href='http://www.google.com/analytics/feeds/data?start-index=6&amp;max-results=5&amp;sort=-ga%3Avisits&amp;end-date=2008-10-31&amp;start-date=2008-10-01&amp;metrics=ga%3Avisits%2Cga%3Abounces&amp;ids=ga%3A1174&amp;dimensions=ga%3Asource%2Cga%3Amedium&amp;filters=ga%3Amedium%3D%3Dreferral'/>
+  <author>
+    <name>Google Analytics</name>
+  </author>
+  <generator version='1.0'>Google Analytics</generator>
+  <openSearch:totalResults>3</openSearch:totalResults>
+  <openSearch:startIndex>1</openSearch:startIndex>
+  <openSearch:itemsPerPage>5</openSearch:itemsPerPage>
+  <dxp:startDate>2008-10-01</dxp:startDate>
+  <dxp:endDate>2008-10-31</dxp:endDate>
+  <dxp:aggregates>
+    <dxp:metric confidenceInterval='0.0' name='ga:pageviews' type='integer' value='36'/>
+  </dxp:aggregates>
+  <dxp:dataSource>
+    <dxp:tableId>ga:1174</dxp:tableId>
+    <dxp:tableName>www.googlestore.com</dxp:tableName>
+    <dxp:property name='ga:profileId' value='1174'/>
+    <dxp:property name='ga:webPropertyId' value='UA-30481-1'/>
+    <dxp:property name='ga:accountName' value='Google Store'/>
+  </dxp:dataSource>
 
   <entry>
     <id> http://www.google.com/analytics/feeds/data?ids=ga:1174&amp;ga:country=%28not%20set%29&amp;ga:city=%28not%20set%29&amp;start-date=2008-01-01&amp;end-date=2008-01-02 </id>
@@ -25,7 +32,7 @@
     <link href="http://www.google.com/analytics/feeds/data" rel="self" type="application/atom+xml"/>
     <dxp:dimension name="ga:country" value="(not set)" />
     <dxp:dimension name="ga:city" value="(not set)" />
-    <dxp:metric name="ga:pageviews" value="33" />
+    <dxp:metric confidenceInterval='0.0' name="ga:pageviews" type="integer" value="33" />
   </entry>
   <entry>
     <id> http://www.google.com/analytics/feeds/data?ids=ga:1174&amp;ga:country=Afghanistan&amp;ga:city=Kabul&amp;start-date=2008-01-01&amp;end-date=2008-01-02 </id>
@@ -33,7 +40,7 @@
     <title type="text"> ga:country=Afghanistan | ga:city=Kabul </title>
     <dxp:dimension name="ga:country" value="Afghanistan" />
     <dxp:dimension name="ga:city" value="Kabul" />
-    <dxp:metric name="ga:pageviews" value="2" />
+    <dxp:metric confidenceInterval='0.0' name="ga:pageviews" type="integer" value="2" />
   </entry>
   <entry>
     <id> http://www.google.com/analytics/feeds/data?ids=ga:1174&amp;ga:country=Albania&amp;ga:city=Tirana&amp;start-date=2008-01-01&amp;end-date=2008-01-02 </id>
@@ -41,6 +48,6 @@
     <title type="text"> ga:country=Albania | ga:city=Tirana </title>
     <dxp:dimension name="ga:country" value="Albania" />
     <dxp:dimension name="ga:city" value="Tirana" />
-    <dxp:metric name="ga:pageviews" value="1" />
+    <dxp:metric confidenceInterval='0.0' name="ga:pageviews" type="integer" value="1" />
   </entry>
 </feed>
